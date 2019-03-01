@@ -1,6 +1,5 @@
 
 html{
-   box-sizing: border-box;
    background-size: cover;
    background-attachment: fixed;
    background-color: #6e7e30
@@ -8,6 +7,7 @@ html{
 
 .Navbar{
   display: flex;
+  justify-content: space-between;
 
   background-color: black;
   font-size: 20px;
@@ -19,10 +19,7 @@ html{
 
 }
 .Navlinks{
-  display: flex;
   list-style: none;
-
-
 }
 
 .Main{

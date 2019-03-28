@@ -4,7 +4,14 @@ html{
    background-attachment: fixed;
  
 }
-
+.link{
+  text-decoration: none;
+  background-color: none;
+  color: black;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 300px
+}
 .Navbar{
   display: flex;
   justify-content: space-between;

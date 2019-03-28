@@ -27,6 +27,7 @@ class App extends Component {
         <li className="nav-item"><NavLink to='/projects'>Projects</NavLink></li>{' '}
         <li className="nav-item"><NavLink to='/contact'>Contact</NavLink></li>{' '}
         <li className="nav-item"><a href="https://github.com/lonestar92s"><i class="github icon"></i></a></li>{' '}
+        <li className="nav-item"><a href="https://www.linkedin.com/in/andrewaluko/"><i class="linkedin icon"></i></a></li>{' '}
         </ul>
         </nav>
       <Switch> 

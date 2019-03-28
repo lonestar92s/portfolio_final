@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import {
+    BrowserRouter as Router,
+    Route,
+    NavLink,
+} from 'react-router-dom'
 import '../App.css';
 
 export default class LandingPage extends Component{
@@ -7,13 +12,17 @@ export default class LandingPage extends Component{
 		<div className="LandingPage">
 		<div className="Main">
 		
-		<h1>Some type of entrance button</h1>
+		<NavLink to='/home'>
+		<div className="link">
+		<div>Andrew Aluko</div>
 		<h2>Software Developer</h2>
-		
-
+		</div>
+		</NavLink>
 		</div>
 		</div>
 
 		)
 	}
 }
+
+		

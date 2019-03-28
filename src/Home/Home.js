@@ -6,7 +6,7 @@ import '../App.css';
 export default class Home extends Component{
 	render() {
 		return (
-		<div className="Home">
+		
 		<div className="Main">
 		<div className="brand">
 		<h1>Creative.</h1>
@@ -14,7 +14,7 @@ export default class Home extends Component{
 		<h3>Analytical.</h3>
 		</div>
 		</div>
-		</div>
+	
 
 		)
 	}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import image from './profile.jpeg'
 
 
 
@@ -7,15 +8,16 @@ export default class Home extends Component{
 	render() {
 		return (
 		
-		<div className="Main">
-		<div className="brand">
-		<h1>Creative.</h1>
-		<h2>Capable.</h2>
-		<h3>Analytical.</h3>
+	  <div className="Parent">	
+		<div clasName="Image">
+		<img src={image} alt="profile" />
 		</div>
-		</div>
-	
-
+	  </div>	
+		
 		)
 	}
 }
+		
+	
+		
+

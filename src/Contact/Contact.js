@@ -9,7 +9,6 @@ export default class Contact extends Component{
 		<div>
 		<div className="Main">
 		<h1>Contact Info</h1>
-		<a href='#'><Icon name="github" /></a>
 		</div>
 		</div>
 

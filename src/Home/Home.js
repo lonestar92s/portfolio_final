@@ -18,7 +18,7 @@ export default class Home extends Component{
 	<div class="ui segment">
   <div class="ui two column very relaxed grid">
     <div class="column">
-      <p>Hello, I am a Full-Stack Software Developer. Born and raised in Austin, TX currently living in Chicago, IL.</p>
+      <p>Hello, I am a Software Developer born and raised in Austin, TX currently living in Chicago, IL.</p>
       <p>it</p>
       <p>me</p>
       <p></p>
@@ -31,7 +31,7 @@ export default class Home extends Component{
     </div>
   </div>
   <div class="ui vertical divider">
-    
+    😎
   </div>
 </div>
 	  </section>

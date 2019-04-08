@@ -10,38 +10,26 @@ export default class Home extends Component{
 		
 	  <div className="Main">
 	  <div className="Parent">	
-		<div clasName="Image">
-		<img src={image} alt="profile" />
-		</div>
+		<img src={image} alt="profile" className="Image" />
 	  </div>
-	  <section className="About">
-	<div class="ui segment">
-  <div class="ui two column very relaxed grid">
-    <div class="column">
-      <p>Hello, I am a Software Developer born and raised in Austin, TX currently living in Chicago, IL.</p>
-      <p>it</p>
-      <p>me</p>
-      <p></p>
-    </div>
-    <div class="column">
-      <p></p>
-      <p></p>
-      <p></p>
-      <p></p>
-    </div>
-  </div>
-  <div class="ui vertical divider">
-    😎
-  </div>
-</div>
-	  </section>
+		<div className="About">
+		<h1> Who I Am</h1>
+		I am a Full-Stack Developer who is passionate about solving complex problems with clear and concise solutions. I enjoy building straightforward applications that provide ease of use. Outside of software development I enjoy making music, travelling, religously watching soccer and eating tacos.
+		<h1>Technologies</h1>
+		<ul>
+			<li>Languages: Javascript, HTML/CSS, Python, SQL</li>
+			<li>Frameworks/Libraries: Node.js, Express.js, React, Django, Bootstrap</li>
+			<li>Dev Ops: AWS, GitHub, Heroku, Postman</li>
+		</ul>
+		</div>
 	  </div>	
-		
 		)
 	}
 }
 		
 
 	
+		
+		
 		
 

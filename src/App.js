@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Navbar } from 'react-bootstrap';
 import Home from './Home/Home'
 import Contact from './Contact/Contact'
+import Projects from './Projects/Projects'
 import LandingPage from './LandingPage/LandingPage'
 import './App.css';
 
@@ -26,14 +26,15 @@ class App extends Component {
         <li className="nav-item"><NavLink to='/about'>About</NavLink></li>{' '}
         <li className="nav-item"><NavLink to='/projects'>Projects</NavLink></li>{' '}
         <li className="nav-item"><NavLink to='/contact'>Contact</NavLink></li>{' '}
-        <li className="nav-item"><a href="https://github.com/lonestar92s"><i class="github icon"></i></a></li>{' '}
-        <li className="nav-item"><a href="https://www.linkedin.com/in/andrewaluko/"><i class="linkedin icon"></i></a></li>{' '}
+        <li className="nav-item"><a href="https://github.com/lonestar92s" target="_blank" rel="noopener noreferrer" ><i class="github icon"></i></a></li>{' '}
+        <li className="nav-item"><a href="https://www.linkedin.com/in/andrewaluko/" target="_blank" rel="noopener noreferrer"><i class="linkedin icon"></i></a></li>{' '}
         </ul>
         </nav>
       <Switch> 
        <Route exact path="/" component={LandingPage} />
        <Route path='/contact' component={Contact} />
        <Route path='/about' component={Home} />
+       <Route path='/projects' component={Projects} />
        </Switch>
        </div>
      </Router>

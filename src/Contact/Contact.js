@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { Icon } from 'semantic-ui-react'
+
 
 
 export default class Contact extends Component{

@@ -43,11 +43,13 @@ html{
   border-width: 10px
 }
 
-li{
+.nav-item{
   display: inline-flex;
   list-style: none
 }
-
+.Name{
+  list-style: none
+}
 
 a{
   font-family: Helvetica;
@@ -56,13 +58,21 @@ a{
   padding-right: 75px;
 }
 
-img{
+/*Projects CSS*/
+.ProjectParent{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+
+/*----------------------------------------*/
+
+.Image{
+  display: inline-block;
   border-radius: 50%;
   width: 250px;
   height: auto
-}
-.Image{
-  display: inline-block;
 }
 .Parent{
   text-align: center;
@@ -74,9 +84,16 @@ img{
   border-bottom: 2px solid black;
 }
 .About{
+  margin: 0 auto;
+  width: auto;
+  margin-top: 30px;
+  max-width: 800px;
   padding: 30px;
-  position: relative;
+  background-color: white;
+  text-align: center;
+  list-style-position: inside;
 }
+
 /*Responsive Nav and Page*/
 @media(max-width:450px) {
 .Navbar{

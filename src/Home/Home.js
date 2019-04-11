@@ -14,7 +14,7 @@ export default class Home extends Component{
 	  </div>
 		<div className="About">
 		<h1> Who I Am</h1>
-		I am a Full-Stack Developer who is passionate about solving complex problems with clear and concise solutions. I enjoy building straightforward applications that provide ease of use. Outside of software development I enjoy making music, travelling, religously watching soccer and eating tacos.
+		I am a Full-Stack Developer who is passionate about solving complex problems with clear and concise solutions. I love building straightforward applications that provide ease of use. Outside of software development I enjoy making music, traveling, religously watching soccer and eating tacos.
 		<h1>Technologies</h1>
 		<ul>
 			<li>Languages: Javascript, HTML/CSS, Python, SQL</li>

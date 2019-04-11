@@ -13,6 +13,9 @@ import {
 } from 'react-router-dom'
 
 
+
+
+
 class App extends Component {
     render() {
         return (
@@ -26,8 +29,8 @@ class App extends Component {
         <li className="nav-item"><NavLink to='/about'>About</NavLink></li>{' '}
         <li className="nav-item"><NavLink to='/projects'>Projects</NavLink></li>{' '}
         <li className="nav-item"><NavLink to='/contact'>Contact</NavLink></li>{' '}
-        <li className="nav-item"><a href="https://github.com/lonestar92s" target="_blank" rel="noopener noreferrer" ><i class="github icon"></i></a></li>{' '}
-        <li className="nav-item"><a href="https://www.linkedin.com/in/andrewaluko/" target="_blank" rel="noopener noreferrer"><i class="linkedin icon"></i></a></li>{' '}
+        <li className="nav-item"><a href="https://github.com/lonestar92s" className="social" target="_blank" rel="noopener noreferrer" ><i className="github icon"></i></a></li>{' '}
+        <li className="nav-item"><a href="https://www.linkedin.com/in/andrewaluko/" className="social" target="_blank" rel="noopener noreferrer"><i className="linkedin icon"></i></a></li>{' '}
         </ul>
         </nav>
       <Switch> 

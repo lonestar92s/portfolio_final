@@ -31,9 +31,9 @@ class App extends Component {
         <ul className ="Navlinks">
         <li className="nav-item"><NavLink to='/about'>About</NavLink></li>{' '}
         <li className="nav-item"><NavLink to='/projects'>Projects</NavLink></li>{' '}
-        <li className="nav-item"><NavLink to='/contact'>Contact</NavLink></li>{' '}
         <li className="nav-item"><a href="https://github.com/lonestar92s" className="social" target="_blank" rel="noopener noreferrer" ><i className="github icon"></i></a></li>{' '}
         <li className="nav-item"><a href="https://www.linkedin.com/in/andrewaluko/" className="social" target="_blank" rel="noopener noreferrer"><i className="linkedin icon"></i></a></li>{' '}
+        <li className="nav-item"><a href='mailto:aluko17@icloud.com' className="email"><i className="envelope outline icon"></i></a></li>{' '}
         </ul>
         </nav>
       <Switch> 

@@ -43,12 +43,13 @@ html{
   border-width: 10px;
 }
 
+
 .nav-item{
   display: inline-flex;
-  list-style: none
+  list-style: none;
 }
 .Name{
-  list-style: none
+  list-style: none;
 }
 
 a{
@@ -57,18 +58,33 @@ a{
   text-decoration: none;
   padding-right: 75px;
 }
+  
 
 /*Projects CSS*/
 .projects{
-  margin-bottom: 35px;
-
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 .projectHeader{
   text-align: center;
   border-bottom: solid black 2px;
   margin-right: 25px
 }
+.description{
+  vertical-align: top;
+  max-width: 550px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+  padding: 15px;
+}
 
+ul{
+  text-align: center;
+  list-style: none
+}
 
 /*----------------------------------------*/
 

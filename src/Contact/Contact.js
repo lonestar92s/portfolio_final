@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import '../App.css';
 
-
+const API_PATH = 'http://localhost/portfolio/api/contact/index.php';
 
 export default class Contact extends Component {
 	state = {
@@ -13,10 +14,24 @@ export default class Contact extends Component {
 	    error: null
 	}
 	// event handler
-	handleFormSubmit =(event)=> {
-	  event.preventDefault();
-	  console.log(this.state);
-	}
+	  handleFormSubmit = event => {
+    event.preventDefault();
+    axios({
+        method: 'post',
+        url: `${API_PATH}`,
+        headers: { 'content-type': 'application/json' },
+        data: this.state
+      })
+    .then(result => {
+      this.setState( { 
+        mailSent: result.data.sent
+      })
+      console.log(this.state);
+    })
+    .catch(error => this.setState( { error: error.message } ));
+  };
+
+
     
     render() {
         return (
@@ -39,9 +54,14 @@ export default class Contact extends Component {
 			<textarea id="subject"name="subject"placeholder="Write something.." onChange={event => this.setState({ message: event.target.value})} value={this.state.message}>
 			</textarea>
 			<input type="submit"value="Submit" onClick={event => this.handleFormSubmit(event)} />
+			{this.state.mailSent  &&
+                  <div className="success">Thank you for contacting me!</div>
+                }
+                {this.state.error  &&
+                  <div className="error">Sorry there was a problem sending your email.</div>
+                }
+
 		</form>
-
-
 		</div>
 	</div>
 

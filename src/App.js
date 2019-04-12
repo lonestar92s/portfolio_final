@@ -5,12 +5,14 @@ import Projects from './Projects/Projects'
 import LandingPage from './LandingPage/LandingPage'
 import './App.css';
 
+
 import {
     BrowserRouter as Router,
     Route,
     NavLink,
     Switch
-} from 'react-router-dom'
+} from 'react-router-dom';
+
 
 
 
@@ -21,7 +23,7 @@ class App extends Component {
         return (
     <Router> 
       <div> 
-        <nav className="Navbar">
+        <nav style={{fontsize: "10vw"}} className="Navbar">
         <ul>
         <li className="Name"><NavLink to='/'>Andrew Aluko</NavLink></li>
         </ul>

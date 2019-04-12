@@ -152,6 +152,20 @@ a{
      padding: 20px;
 }
 
+.success  {
+  margin: 20px 0;
+  border: 1px solid green;
+  padding: 7px;
+  font-weight: bold;
+}
+
+.error {
+  margin: 20px 0;
+  border: 1px solid black;
+  padding: 7px;
+  font-weight: bold;
+}
+
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import '../App.css';
 
-const API_PATH = 'http://localhost/portfolio/api/contact/index.php';
+const API_PATH = 'http://localhost:1992/portfolio/api/contact/index.php';
 
 export default class Contact extends Component {
 	state = {

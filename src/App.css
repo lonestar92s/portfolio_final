@@ -4,6 +4,12 @@ html{
    background-attachment: fixed;
  }
 
+ body {
+  display: flex;
+  overflow-x: auto;
+  /*white-space: nowrap;*/
+}
+
 .link:hover{
   color: white;
 }
@@ -120,6 +126,9 @@ ul{
   display: inline-block;
   white-space: nowrap;
   }
+.Name{
+  display: none;
+}
 
 .link{
   display: inline-block;

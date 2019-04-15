@@ -4,11 +4,6 @@ html{
    background-attachment: fixed;
  }
 
- body {
-  
-  overflow-x: auto;
-  /*white-space: nowrap;*/
-}
 
 .link:hover{
   color: white;
@@ -45,7 +40,7 @@ html{
 
 .Main{
   margin-top: 75px;
-  margin-left: 35px;
+  /*margin-left: 35px;*/
   border-width: 10px;
 }
 
@@ -103,10 +98,7 @@ ul{
 .Parent{
   text-align: center;
   margin-top: 75px;
-  margin-left: 35px;
   border-width: 10px;
-  margin-top: 75px;
-  margin-right: 50px;
   border-bottom: 2px solid black;
 }
 .About{
@@ -122,18 +114,11 @@ ul{
 
 /*Responsive Nav and Page*/
 @media(max-width:1000px) {
-.Navbar{
-  display: inline-block;
-  white-space: nowrap;
-  }
+
 .Name{
   display: none;
 }
 
-.link{
-  display: inline-block;
-  white-space: nowrap;
-  }
 }
 /*contact form*/
 * {
@@ -191,15 +176,9 @@ ul{
   font-weight: bold;
 }
 
-/* ----------- iPhone X ----------- */
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
 
-}
+
 
 
 

@@ -4,6 +4,7 @@ html{
    background-attachment: fixed;
  }
 
+/*Landing Page*/
 
 .link:hover{
   color: white;
@@ -40,10 +41,12 @@ html{
 
 .Main{
   margin-top: 75px;
-  /*margin-left: 35px;*/
   border-width: 10px;
+  font-size: 18px
 }
-
+.brand{
+  margin-left: 35px;
+}
 
 .nav-item{
   display: inline-flex;
@@ -64,15 +67,15 @@ a{
 /*Projects CSS*/
 .projects{
   margin-bottom: 10px;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  
 }
 .projectHeader{
   text-align: center;
   border-bottom: solid black 2px;
-  margin-right: 25px
+  margin-right: 10%;
+  margin-left: 10%;
 }
 .description{
   vertical-align: top;
@@ -82,24 +85,41 @@ a{
   padding: 15px;
 }
 
-ul{
+.Navbar ul{
   text-align: center;
   list-style: none
 }
 
+/*media query mobile*/
+.guessingGame img{
+  max-width: auto
+}
+.liveWell img{
+  max-width: auto
+}
+
+.repositories li{
+  list-style: none;
+  display: flex;
+  justify-content: center
+
+}
 /*----------------------------------------*/
 
 .Image{
   display: inline-block;
   border-radius: 50%;
   width: 250px;
-  height: auto
+  height: auto;
 }
 .Parent{
   text-align: center;
   margin-top: 75px;
   border-width: 10px;
   border-bottom: 2px solid black;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 15px
 }
 .About{
   margin: 0 auto;
@@ -113,13 +133,7 @@ ul{
 }
 
 /*Responsive Nav and Page*/
-@media(max-width:1000px) {
 
-.Name{
-  display: none;
-}
-
-}
 /*contact form*/
 * {
     box-sizing: border-box;

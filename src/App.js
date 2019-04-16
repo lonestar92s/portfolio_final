@@ -24,7 +24,7 @@ class App extends Component {
         return (
     <Router> 
       <div> 
-        <nav style={{fontsize: "10vw"}} className="Navbar">
+        <nav className="Navbar">
         <ul>
         <li className="Name"><NavLink to='/'>Andrew Aluko</NavLink></li>
         </ul>

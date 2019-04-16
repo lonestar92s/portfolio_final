@@ -21,7 +21,7 @@ export default class Projects extends Component {
 				  </div>			
 		 		<p className="description">liveWell is a real estate app that allows the user to search any residential property by address and get information such as square footage, bedrooms, bathrooms and Walkscore.</p>
 		 		<h2 className="projectHeader">Repositories</h2>
-		 		<ul>
+		 		<ul className="repositories">
 		 			<li><a  style={{color: 'blue'}}href="https://github.com/lonestar92s/guessing-game" target="_blank" rel="noopener noreferrer">Guessing Game</a></li>
 		 			<li><a  style={{color: 'blue'}}href="https://github.com/lonestar92s/liveWell" target="_blank" rel="noopener noreferrer">liveWell: React</a></li>
 		 			<li><a  style={{color: 'blue'}}href="https://github.com/lonestar92s/liveWell_backend" target="_blank" rel="noopener noreferrer">liveWell: Node</a></li>
